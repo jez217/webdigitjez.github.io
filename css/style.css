@@ -799,8 +799,9 @@ font-size: 20px;
 .laptop {
      font-family: 'Dosis', sans-serif;
      padding: 130px 0;
-     background: url(https://craftwork-images.b-cdn.net/wp-content/uploads/edd/2023/07/Property-1dark-Property-221.png);
-     background-repeat: no-repeat;
+     background-color: #000000;
+     background-image: linear-gradient(62deg, #000000 0%, #5c717c 70%);
+          background-repeat: no-repeat;
      background-size: 100% 100%;
   
      position: relative;
