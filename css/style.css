@@ -377,9 +377,9 @@ ul.btn li:last-child {
 .header {
      width: 100%;
      padding: 10px 30px;
-     background: transparent;
-     position: absolute;
      z-index: 999;
+     position: fixed; 
+     background-color: black;
 }
 
 .logo a {
@@ -389,6 +389,10 @@ ul.btn li:last-child {
      color: #fff;
      line-height: 40px;
      
+}
+
+.logo img {
+     width: 45%;
 }
 
 
@@ -623,6 +627,10 @@ font-size: 20px;
      padding-top: 90px;
      padding-bottom: 90px;
 
+}
+
+.three_box h2{
+     color: black; font-size: 50px; font-weight: 400;
 }
 
 .box_text {
@@ -1365,33 +1373,38 @@ ul.social_icon li a:hover {
 
 /** laptop **/
 
-.laptop1 {
+.section1 {
      background-color: #f4f4f4;
      padding: 15px 0;
 }
 
-.laptop1 .titlepage {
+
+.section1 h1{
+     color: black; font-size: 50px;
+}
+
+.section1 .titlepage {
      text-align: left;
 }
 
-.laptop1 .titlepage h2 {
+.section1 .titlepage h2 {
      max-width: inherit;
      border: inherit;
      color: #000;
 
 }
 
-.laptop1 .titlepage p {
+.section1 .titlepage p {
      padding-bottom: 10px;
 
      color: #000;
 }
 
-.laptop1_img figure {
+.section1_img figure {
      margin: 0;
 }
 
-.laptop1_img figure img {
+.section1_img figure img {
      width: 100%;
      color: #23238b;
 }
