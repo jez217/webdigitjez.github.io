@@ -130,7 +130,6 @@ ol {
 
 p {
      margin: 0px;
-     font-weight: 500;
      font-size: 15px;
      line-height: 24px;
 }
@@ -807,8 +806,8 @@ font-size: 20px;
 .laptop {
      font-family: 'Dosis', sans-serif;
      padding: 130px 0;
-     background-color: #000000;
-     background-image: linear-gradient(62deg, #000000 0%, #5c717c 70%);
+     background-color: #5c717c;
+     background-image: linear-gradient(62deg, #5c717c 20%, #5c717c 20%,#000000b0 90%);
           background-repeat: no-repeat;
      background-size: 100% 100%;
   
